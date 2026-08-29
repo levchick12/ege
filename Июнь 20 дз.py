@@ -21,14 +21,14 @@
 #     print(y)
 
 # Задача 3.
-# s = int(input())
-# a = s // 100
-# b = s // 10 % 10
-# c = s % 10
-# print(a, b, c)
-# if a and b % 5 == 0 or b and c % 5 == 0 or c and a % 5 == 0:
-#     print(s)
-# elif a and b % 2 == 0 or b and c % 2 == 0 or c and a % 2 == 0:
-#     print(s)
-# else:
-#     print(s + 1)
+s = int(input())
+a = s // 100
+b = s // 10 % 10
+c = s % 10
+print(a, b, c)
+if ((a and b) % 5) == 0 or ((b and c) % 5) == 0 or ((c and a) % 5) == 0:
+    print(s)
+elif ((a and b) % 2) == 0 or ((b and c) % 2) == 0 or ((c and a) % 2) == 0:
+    print(s)
+else:
+    print(s + 1)
