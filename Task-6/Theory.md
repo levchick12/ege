@@ -61,7 +61,7 @@ teleport(x,y)
 dot(size, color)
 
 Изменяет размер полотна
-screensie(10_000, 10_000)
+screensize(10_000, 10_000)
 
 отключает анимацию
 tracer(0)
