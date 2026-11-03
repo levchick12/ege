@@ -1,5 +1,3 @@
-Задание с косяком 6205
-
 # системы счисления
 
 N = 25
@@ -38,9 +36,9 @@ from string import printable as alph
 def convert2(num, sys):
     res = ''
     while num:
-        res += alph[num % sys]
+        res += alph[num % sys] 
         num //= sys
-    return res[::-1]
+    return res[::-1] if res else '0'
 
 
 # перевод в десятичную систему
