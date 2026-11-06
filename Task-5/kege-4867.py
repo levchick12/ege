@@ -5,4 +5,4 @@ for n in range(2,10000):
     r = abs(sum_1 - sum_2)
     if r == 9:
         ans.append(n)
-print(min(ans))
+print(min(ans ))
